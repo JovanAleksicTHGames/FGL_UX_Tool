@@ -1,5 +1,11 @@
 import miro from '@mirohq/websdk';
 
+miro.board.ui.on('icon:click', async () => {
+  await miro.board.ui.openPanel({
+    url: 'index.html', // or another HTML file if you prefer
+  });
+});
+
 async function getSelectedStickyNotes(): Promise<miro.Item[]> {
   const selection = await miro.board.getSelection();
   return selection.filter(item => item.type === 'sticky_note');
@@ -57,3 +63,4 @@ setInterval(async () => {
     await calculate('Product');
   }
 }, 5000); // Update every 5 seconds
+
