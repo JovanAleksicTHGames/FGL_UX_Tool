@@ -1,5 +1,5 @@
 {
-  "appName": "Miro Math Sync",
+  "appName": "FGL UX Tool",
   "sdkVersion": "2.0",
   "sdkUri": "https://fgluxtools.netlify.app/", // Replace with your Netlify or GitHub Pages URL
   "scopes": [
@@ -15,6 +15,7 @@
     "allowedDomains": ["yourdomain.com"]
   }
 }
+
 
 
 
