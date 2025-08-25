@@ -1,7 +1,7 @@
 {
   "appName": "Miro Math Sync",
   "sdkVersion": "2.0",
-  "sdkUri": "https://yourdomain.com", // Replace with your Netlify or GitHub Pages URL
+  "sdkUri": "https://fgluxtools.netlify.app/", // Replace with your Netlify or GitHub Pages URL
   "scopes": [
     "boards:read",
     "boards:write"
@@ -10,10 +10,11 @@
     "outline": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='black'/></svg>",
     "colored": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='green'/></svg>"
   },
-  "redirectUriForSdk": "https://yourdomain.com",
+  "redirectUriForSdk": "https://fgluxtools.netlify.app/",
   "boardPicker": {
     "allowedDomains": ["yourdomain.com"]
   }
 }
+
 
 
