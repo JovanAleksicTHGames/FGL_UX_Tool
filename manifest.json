@@ -1,0 +1,26 @@
+{
+  "name": "FGL UX Tool",
+  "url": "https://thriving-biscochitos-efe6a0.netlify.app/",
+  "scopes": [
+    "boards:read",
+    "boards:write"
+  ],
+  "permissions": [
+    "boards:read",
+    "boards:write",
+    "ui"
+  ],
+  "toolbar": {
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828911.png",
+    "tooltip": "Multiply Sticky Notes",
+    "position": 1,
+    "action": "open-modal"
+  },
+  "appComponents": [
+    {
+      "type": "modal",
+      "name": "Multiply Modal",
+      "url": "index.html"
+    }
+  ]
+}
